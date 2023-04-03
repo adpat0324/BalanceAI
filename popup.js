@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
     checkPageButton.addEventListener('click', function() {
   
       chrome.tabs.getSelected(null, function(tab) {
-        alert("Hello..! It's my first chrome extension.");
+        alert("This is just a pop up for now, will link to recommendations");
       });
     }, false);
   }, false);
