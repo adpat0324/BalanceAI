@@ -41,6 +41,8 @@ with torch.no_grad():
 
 # Print the predicted sentiment of the post
 if predicted_sentiment == 0:
+    sentiment = 0
     print("The sentiment of the post is positive.")
 elif predicted_sentiment == 1:
+    sentiment = 1
     print("The sentiment of the post is negative.")
