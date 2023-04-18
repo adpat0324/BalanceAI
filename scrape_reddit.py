@@ -8,11 +8,11 @@ app = Flask(__name__)
 @app.route('/get_sentiment')
 def get_sentiment():
 # Initialize the Reddit instance with your credentials
-    reddit = praw.Reddit(client_id='wR1bOBPejs4v5grZsCk2ww',
-                        client_secret='WSgVBz_Wlv0Cno4iXXwmv08eX3Zdwg',
-                        username='adpat0324',
-                        password='Krishrocks1',
-                        user_agent='Mac:my_reddit_app:v1.0 by /u/adpat0324')
+    reddit = praw.Reddit(client_id='',
+                        client_secret='',
+                        username='',
+                        password='',
+                        user_agent='Mac:my_reddit_app:v1.0 by /u/')
 
     # Get the link to the post you want to scrape data from
     post_url = request.args.get('post_url')
