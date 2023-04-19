@@ -1,10 +1,23 @@
-
 var script = document.createElement('script');
 script.src = 'https://code.jquery.com/jquery-3.6.3.min.js'; // Check https://jquery.com/ for the current version
 document.getElementsByTagName('head')[0].appendChild(script);
+var positive = false
 
 document.addEventListener('DOMContentLoaded', () => {
     var y = document.getElementById("index_link");
+    var conditional = document.getElementById("conditional");
+    if (positive == true){
+      while(conditional.firstChild) {
+         conditional.removeChild(conditional.firstChild);
+      }
+      const node = document.createTextNode("Happy Reddit Browsing!");
+      conditional.appendChild(node);
+      var DOM_img = document.createElement("img");
+      DOM_img.setAttribute('id', 'my_gif');
+      DOM_img.src = "https://media.giphy.com/media/fuQI0IYqADwfm/giphy.gif";
+      conditional.appendChild(DOM_img);
+   }
+
     y.addEventListener("click", openIndex);
  });
  
