@@ -10,7 +10,11 @@
         "default_popup": "popup.html",
         "default_title": "My custom google Extension"
     },
+    "background" : {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
     "permissions": [
-        "activeTab"
+        "activeTab", "notifications", "alarms"
      ]
 }
