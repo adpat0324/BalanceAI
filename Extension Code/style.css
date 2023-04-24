@@ -1,0 +1,58 @@
+body {
+    margin: 5px;
+    height: 190px;
+    width: 225px;
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    outline: 0;
+}
+
+h2 {
+font-size: 15px;
+text-align: center;
+}
+
+#my_gif{
+    height: 200px;
+    width: 200px;
+}
+
+.button{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 40px;
+    font-size: 12px;
+    border: 1px rgb(31, 86, 120);
+    border-radius: 2px;
+    background-color: rgb(57, 167, 235);
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.first_button{
+    font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    height: 20px;
+    font-size: 12px;
+    border: 1px rgb(31, 86, 120);
+    border-radius: 2px;
+    background-color: rgb(57, 167, 235);
+    color: white;
+    transition-duration: 0.4s;
+}
+
+.first_button:hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+

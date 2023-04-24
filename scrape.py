@@ -14,9 +14,9 @@ def get_sentiment():
     # Initialize the Reddit instance with your credentials
     reddit = praw.Reddit(client_id='iY3XCg5HEhpkzp9Khr5YwA',
                         client_secret='jMedkOq6izkJbKrkSENe19_HmjJjBg',
-                        username='Antique-Explorer-473',
-                        password='yoshI1227!',
-                        user_agent='Mac:my_reddit_app:v1.0 by /u/Antique-Explorer-473',
+                        username='smj2173',
+                        password='Balance831??',
+                        user_agent='Mac:my_reddit_app:v1.0 by /u/smj2173',
                         verify=True)
 
     # Get the link to the post you want to scrape data from
