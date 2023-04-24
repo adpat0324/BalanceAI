@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+  "name": "Random Reddit Post Recommender",
+  "version": "1.0",
+  "description": "Recommends one randomly selected Reddit post",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://www.reddit.com/*",
+    "http://127.0.0.1:5000/"
+  ],
+  "action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html"],
+      "matches": ["http://*/*", "https://*/*"]
+    },
+    {
+      "resources": ["*.js"],
+      "matches": ["http://*/*", "https://*/*"]
+    }
+  ]
+}
