@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Reddit Sentiment Analysis</title>
+        <script src="jquery-3.6.0.min.js"></script>
+        <script src="popup.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Reddit Sentiment Analysis</h1>
+        
+        <h3>Enter Post URL</h3>
+        <input id="url" type="text">
+        <input class="first_button" id="urlsubmit" type="submit" value="Analyze"/>
+        <div id="loading" style="display:none;">Analyzing...</div> <!-- Add this element as the loading indicator -->
+        <div id="result"></div>
+        <br>
+        <div id="recommendation">
+            Happy Reddit Browsing! 
+            <img id="my_gif" src="https://media.giphy.com/media/fuQI0IYqADwfm/giphy.gif">
+        </div>
+        <div id="for_button"></div>
+    </body>
+</html>
